@@ -14,18 +14,13 @@ body {
   font-size: 14px;
   letter-spacing: 1pt; }
 
-::-moz-placeholder {
-  color: #787878;
-  font-size: 14px;
-  letter-spacing: 1pt; }
-
 :-ms-input-placeholder {
   color: #787878;
   font-size: 14px;
   letter-spacing: 1pt; }
 
 a {
-  color: #383838;
+  color: #111111;
   -webkit-transition: all 0.5s;
   -o-transition: all 0.5s;
   transition: all 0.5s;
@@ -2611,29 +2606,40 @@ ul.social-buttons li {
 .full-blog-content p {
   font-weight: 400;
   font-size: 13px;
-  font-family: 'Montserrat', sans-serif; }
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 0; }
 
 .full-blog-content ul {
   list-style: none;
-  padding-left: 0; }
+  padding-left: 0;
+  margin-bottom: 38px; }
 
 .full-blog-content ul li {
   font-weight: 400;
   font-size: 13px;
   font-family: 'Montserrat', sans-serif;
-  line-height: 1.7; }
+  line-height: 1.7;
+  color: #111111; }
 
 @media screen and (min-width: 375px) and (max-width: 1024px) {
   .full-blog-content {
     margin-top: 30px;
     margin-bottom: 30px;
     width: 100%; }
+  .full-blog-content ul {
+    margin-bottom: 38px; }
+  .full-blog-content p {
+    margin-bottom: 0; }
   .header-page-service, .header-page-about, .header-page-client {
     background-image: none;
     height: 0;
     min-height: 0; }
   .header-page > .inner-content {
-    height: 0; } }
+    height: 0; }
+  .blog-front-image {
+    position: relative;
+    width: 100%;
+    display: block; } }
 
 .cbp_tmtimeline {
   margin: 30px 0 0 0;
@@ -3262,4 +3268,6 @@ a img.aligncenter {
   margin-top: 60px; }
 
 .note {
-  font-size: 12px; }
+  font-size: 10px;
+  color: #111111;
+  font-weight: 400; }

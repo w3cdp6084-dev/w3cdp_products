@@ -45,12 +45,7 @@ body {
   font-family: 'Ubuntu', sans-serif;
 }
 
-:-moz-placeholder {
-  /* Firefox 18- */
-  color: #787878;
-  font-size: 14px;
-  letter-spacing: 1pt;
-}
+
 
 ::-moz-placeholder {
   /* Firefox 19+ */
@@ -69,7 +64,7 @@ body {
 -------------------------------------------------------------- */
 
 a {
-  color: #383838;
+  color: #111111;
   transition: all 0.5s;
   &:focus {
     outline: 0;
@@ -105,6 +100,7 @@ p {
   font-weight: 100;
   clear: both;
   letter-spacing: 0.4px;
+
 }
 
 hr {
@@ -2838,15 +2834,18 @@ ul.social-buttons {
     font-weight: 400;
     font-size: 13px;
     font-family: 'Montserrat', sans-serif;
+    margin-bottom: 0;
   }
   ul {
     list-style: none;
     padding-left: 0;
+    margin-bottom: 38px;
     li {
       font-weight: 400;
       font-size: 13px;
       font-family: 'Montserrat', sans-serif;
       line-height: 1.7;
+      color: #111111;
     }
   }
 }
@@ -2854,7 +2853,14 @@ ul.social-buttons {
   .full-blog-content {
     margin-top: 30px;
     margin-bottom: 30px;
-    width: 100%;}
+    width: 100%;
+    ul {
+      margin-bottom: 38px;
+    }
+    p {
+      margin-bottom: 0;
+    }
+  }
   .header-page-service, .header-page-about, .header-page-client {
     background-image: none;
     height: 0;
@@ -2863,6 +2869,11 @@ ul.social-buttons {
   }
   .header-page >.inner-content {
     height: 0;
+  }
+  .blog-front-image {
+    position: relative;
+    width: 100%;
+    display: block;
   }
 
 }
@@ -3605,5 +3616,7 @@ a img {
 }
 
 .note {
-  font-size: 12px;
+  font-size: 10px;
+  color: #111111;
+  font-weight: 400;
 }
