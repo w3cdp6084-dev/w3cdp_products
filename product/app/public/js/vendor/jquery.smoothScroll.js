@@ -20,8 +20,8 @@
 					targetBody.stop( true );
 				},
 				getTargetBody: function() {
-					if ( $( 'html' ).scrollTop() > 0 ) {
-						targetBody = $( 'html' );
+					if ( $( 'works' ).scrollTop() > 0 ) {
+						targetBody = $( 'works' );
 					} else if ( $( 'body' ).scrollTop() > 0 ) {
 						targetBody = $( 'body' );
 					}

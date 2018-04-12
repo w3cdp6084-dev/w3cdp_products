@@ -124,7 +124,7 @@ jQuery(document).ready(function($){
 		 	setTimeout(function(){ hideWord(takeNext($word)) }, animationDelay);
 		}
 
-		if($letter.is(':last-child') && $('html').hasClass('no-csstransitions')) {
+		if($letter.is(':last-child') && $('works').hasClass('no-csstransitions')) {
 			var nextWord = takeNext($word);
 			switchWord($word, nextWord);
 		} 

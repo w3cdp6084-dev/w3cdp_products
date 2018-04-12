@@ -116,7 +116,7 @@ $.fn.scrollToTop = function() {
         }
     });
     jQuery(this).on('click', function() {
-        jQuery('html, body').animate({
+        jQuery('works, body').animate({
             scrollTop: 0
         }, 'slow')
     })
@@ -421,7 +421,7 @@ $(function(){
         // 移動先を数値で取得
         var position = target.offset().top;
         // スムーススクロール
-        $('body,html').animate({scrollTop:position}, speed, 'swing');
+        $('body,works').animate({scrollTop:position}, speed, 'swing');
         return false;
     });
 });
