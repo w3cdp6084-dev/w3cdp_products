@@ -2619,7 +2619,7 @@ ul.social-buttons {
 /* =Blog
 -------------------------------------------------------------- */
 
-.blog-post {
+.contents-main-post {
   margin-bottom: 100px;
 }
 
@@ -2756,7 +2756,7 @@ ul.social-buttons {
   color: #fff;
 }
 
-.single-blog-wrapper h1 {
+.contents-main h1 {
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
 }
@@ -2822,7 +2822,7 @@ ul.social-buttons {
   }
 }
 
-.full-blog-content {
+.works-front-image-inner {
   margin-top: 30px;
   margin-bottom: 30px;
   width: 50%;
@@ -2850,7 +2850,7 @@ ul.social-buttons {
   }
 }
 @media screen and (min-width:375px) and ( max-width:1024px) {
-  .full-blog-content {
+  .works-front-image-inner {
     margin-top: 30px;
     margin-bottom: 30px;
     width: 100%;
@@ -2878,7 +2878,7 @@ ul.social-buttons {
 
 }
 
-/*.full-blog-content p:first-of-type:first-letter {*/
+/*.works-front-image-inner p:first-of-type:first-letter {*/
 /*float: left;*/
 /*color: #fff;*/
 /*background-color: #111111;*/

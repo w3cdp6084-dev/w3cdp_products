@@ -2393,7 +2393,7 @@ ul.social-buttons li {
   -o-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out; }
 
-.blog-post {
+.contents-main-post {
   margin-bottom: 100px; }
 
 .blog-front-image {
@@ -2533,7 +2533,7 @@ ul.social-buttons li {
   font-size: 30px;
   color: #fff; }
 
-.single-blog-wrapper h1 {
+.contents-main h1 {
   font-family: 'Montserrat', sans-serif;
   font-weight: bold; }
 
@@ -2594,27 +2594,27 @@ ul.social-buttons li {
   color: #fff;
   background: #080808; }
 
-.full-blog-content {
+.works-front-image-inner {
   margin-top: 30px;
   margin-bottom: 30px;
   width: 50%; }
 
-.full-blog-content h2 {
+.works-front-image-inner h2 {
   font-weight: 700;
   font-size: 16px; }
 
-.full-blog-content p {
+.works-front-image-inner p {
   font-weight: 400;
   font-size: 13px;
   font-family: 'Montserrat', sans-serif;
   margin-bottom: 0; }
 
-.full-blog-content ul {
+.works-front-image-inner ul {
   list-style: none;
   padding-left: 0;
   margin-bottom: 38px; }
 
-.full-blog-content ul li {
+.works-front-image-inner ul li {
   font-weight: 400;
   font-size: 13px;
   font-family: 'Montserrat', sans-serif;
@@ -2622,13 +2622,13 @@ ul.social-buttons li {
   color: #111111; }
 
 @media screen and (min-width: 375px) and (max-width: 1024px) {
-  .full-blog-content {
+  .works-front-image-inner {
     margin-top: 30px;
     margin-bottom: 30px;
     width: 100%; }
-  .full-blog-content ul {
+  .works-front-image-inner ul {
     margin-bottom: 38px; }
-  .full-blog-content p {
+  .works-front-image-inner p {
     margin-bottom: 0; }
   .header-page-service, .header-page-about, .header-page-client {
     background-image: none;
