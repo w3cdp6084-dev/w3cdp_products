@@ -190,14 +190,14 @@ function likeEf() {
 
 //Document Ready
 jQuery(document).ready(function($) {
-    
+
     //Navigation Sub Menu Triggering
     jQuery('.menu-item-has-children, .page_item_has_children').hover(function() {
-        jQuery(this).children('.sub-menu').stop().slideDown(200);
-    }, 
-    function() {
-        jQuery(this).children('.sub-menu').stop().slideUp(200);
-    });
+            jQuery(this).children('.sub-menu').stop().slideDown(200);
+        },
+        function() {
+            jQuery(this).children('.sub-menu').stop().slideUp(200);
+        });
 
     //Mobile Menu Open/Close 
     jQuery('#open-mobile-menu').on('click', function() {
@@ -343,8 +343,9 @@ jQuery(document).ready(function($) {
     jQuery('#slider-ef').kenburnsy();
 
     //Scroll Top
-    jQuery('#scroll-top').scrollToTop();
-
+    $('#scroll-top').click(function() {
+        $('html').animate({scrollTop: 0}, '400');
+    });
     //Like
     likeEf();
 
@@ -364,7 +365,7 @@ jQuery(document).ready(function($) {
 
 //Window Load
 jQuery(window).load(function($) {
-    
+
     /*Init Portfolio*/
     var container = jQuery("#work-grid");
     if (container.length > 0) {

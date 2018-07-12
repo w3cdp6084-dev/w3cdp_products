@@ -3059,44 +3059,44 @@ a img.aligncenter {
 
 .alert-success {
   background-color: #5cb85c;
-  border-color: transparent;
+  border-color: rgba(0, 0, 0, 0);
   color: #ebebeb; }
 
 .alert-success hr {
-  border-top-color: transparent; }
+  border-top-color: rgba(0, 0, 0, 0); }
 
 .alert-success .alert-link {
   color: #d2d2d2; }
 
 .alert-info {
   background-color: #5bc0de;
-  border-color: transparent;
+  border-color: rgba(0, 0, 0, 0);
   color: #ebebeb; }
 
 .alert-info hr {
-  border-top-color: transparent; }
+  border-top-color: rgba(0, 0, 0, 0); }
 
 .alert-info .alert-link {
   color: #d2d2d2; }
 
 .alert-warning {
   background-color: #f0ad4e;
-  border-color: transparent;
+  border-color: rgba(0, 0, 0, 0);
   color: #ebebeb; }
 
 .alert-warning hr {
-  border-top-color: transparent; }
+  border-top-color: rgba(0, 0, 0, 0); }
 
 .alert-warning .alert-link {
   color: #d2d2d2; }
 
 .alert-danger {
   background-color: #d9534f;
-  border-color: transparent;
+  border-color: rgba(0, 0, 0, 0);
   color: #ebebeb; }
 
 .alert-danger hr {
-  border-top-color: transparent; }
+  border-top-color: rgba(0, 0, 0, 0); }
 
 .alert-danger .alert-link {
   color: #d2d2d2; }
