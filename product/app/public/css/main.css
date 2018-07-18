@@ -2883,7 +2883,7 @@ input[type="text"] {
   float: left;
   background: #f4f4f4;
   min-height: 300px;
-  z-index: 99;
+  z-index: 8;
   position: relative; }
 
 .footer-inner {
@@ -3285,4 +3285,4 @@ canvas {
 
 .container {
   position: relative;
-  z-index: 99; }
+  z-index: 8; }
