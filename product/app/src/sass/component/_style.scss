@@ -222,6 +222,7 @@ ul {
 .main-title {
   clear: both;
   margin-bottom: 50px;
+  position: relative;
   &.near-content {
     margin-bottom: 22px;
   }
@@ -305,7 +306,7 @@ ul {
   height: 50px;
   text-align: center;
   color: #fff;
-  z-index: 9;
+  z-index: 999;
   border-radius: 50%;
   box-shadow: 0 0 36px 0 rgba(10, 10, 50, 0.15);
   i {
@@ -3185,6 +3186,8 @@ input[type="text"] {
   float: left;
   background: #f4f4f4;
   min-height: 300px;
+  z-index: 99;
+  position: relative;
 }
 
 .footer-inner {
@@ -3439,6 +3442,7 @@ a img {
 
 .top-title {
   height: 100vh;
+  position: relative;
   /*position: absolute;*/
   /*top: 50%;*/
   /*left: 0;*/
@@ -3451,6 +3455,7 @@ a img {
     top: 50%;
     left: 40%;
     right: 0;
+    z-index: 20;
     /* bottom: 0; */
     /* margin: 0 auto; */
     font-size: 5.9vw;
@@ -3619,4 +3624,14 @@ a img {
   font-size: 10px;
   color: #111111;
   font-weight: 400;
+}
+canvas {
+  display: block;
+  position: fixed;
+  top: 0;
+  z-index: 2;
+}
+.container {
+  position: relative;
+  z-index: 99;
 }
